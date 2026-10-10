@@ -1,0 +1,9 @@
+{
+  "checkedAt": "2026-10-10T14:40:48.551Z",
+  "overviewCors": {
+    "accessible": false,
+    "error": "TypeError: Failed to fetch"
+  },
+  "krakenResult": "Public candles loaded. Dates and calculations updated on the wall.",
+  "displayedSource": "Close · 10 Oct 2026, 22:00 UTC+8\nView evidence ↗"
+}

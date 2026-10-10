@@ -1,0 +1,121 @@
+{
+  "testedAt": "2026-10-10T15:06:34.687Z",
+  "fixtureClock": "2026-10-10T14:30:00Z; advanced across the two-hour threshold for the stale-state check",
+  "browser": "154.0.8037.0",
+  "checks": [
+    "production export loads at an IPFS-style subpath with local fonts and assets",
+    "rendered text, input boundaries and focus colors meet their contrast thresholds",
+    "keyboard skip link and focus ring are usable",
+    "one click opens evidence; Escape closes and returns focus",
+    "both futures scenarios are visible without order execution controls",
+    "Kraken research exposes completed candles and all three calculation rules",
+    "saved research survives reload and can be removed",
+    "all six filters, search and honest gold empty state work",
+    "Traditional Chinese translates navigation, filters, statuses and evidence",
+    "responsive layouts reflow at 768, 390 and 320 CSS pixels in both languages",
+    "200% text enlargement preserves reflow",
+    "system reduced motion and the explicit preference suppress transitions",
+    "stale clock changes suppress a current candle reading",
+    "public candle refresh uses two requests and caches subsequent actions",
+    "provider failure retains demo data and throttles repeated attempts"
+  ],
+  "consoleErrors": [],
+  "resourceErrors": [],
+  "contrast": [
+    {
+      "selector": ".hero-promise",
+      "foreground": "rgb(161, 178, 159)",
+      "background": "rgb(8, 13, 10)",
+      "ratio": 8.751665584946332,
+      "threshold": 4.5
+    },
+    {
+      "selector": ".button.primary",
+      "foreground": "rgb(20, 33, 14)",
+      "background": "rgb(184, 245, 137)",
+      "ratio": 13.130096757838938,
+      "threshold": 4.5
+    },
+    {
+      "selector": ".badge",
+      "foreground": "rgb(193, 208, 174)",
+      "background": "rgb(26, 37, 25)",
+      "ratio": 9.754397950122598,
+      "threshold": 4.5
+    },
+    {
+      "selector": ".filter-row button[aria-pressed=true]",
+      "foreground": "rgb(184, 245, 137)",
+      "background": "rgb(25, 37, 27)",
+      "ratio": 12.453025256097114,
+      "threshold": 4.5
+    },
+    {
+      "selector": ".market-card-footer>span",
+      "foreground": "rgb(161, 178, 159)",
+      "background": "rgb(14, 21, 16)",
+      "ratio": 8.279548940029049,
+      "threshold": 4.5
+    },
+    {
+      "selector": ".scene-caption",
+      "foreground": "rgb(161, 178, 159)",
+      "background": "rgb(8, 13, 10)",
+      "ratio": 8.751665584946332,
+      "threshold": 4.5
+    },
+    {
+      "selector": ".screen-caption",
+      "foreground": "rgb(161, 178, 159)",
+      "background": "rgb(16, 27, 18)",
+      "ratio": 7.902231369067029,
+      "threshold": 4.5
+    },
+    {
+      "selector": ".search-box boundary",
+      "foreground": "rgb(89, 109, 81)",
+      "background": "rgb(14, 21, 16)",
+      "ratio": 3.2918415719198078,
+      "threshold": 3
+    },
+    {
+      "selector": ".button.primary focus / adjacent page",
+      "foreground": "rgb(184, 245, 137)",
+      "background": "rgb(8, 13, 10)",
+      "ratio": 15.350750944982488,
+      "threshold": 3,
+      "token": "#b8f589"
+    }
+  ],
+  "accessibility": [
+    {
+      "label": "desktop English",
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    },
+    {
+      "label": "research dialog",
+      "violations": [],
+      "incomplete": []
+    },
+    {
+      "label": "desktop Traditional Chinese",
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    },
+    {
+      "label": "mobile English",
+      "violations": [],
+      "incomplete": [
+        "aria-prohibited-attr",
+        "color-contrast"
+      ]
+    }
+  ]
+}

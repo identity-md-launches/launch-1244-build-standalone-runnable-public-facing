@@ -1,0 +1,367 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-10T15:08:31.459Z",
+  "startingCommit": "0243d7da4a4337ae8b16bcdf15bb4ead736fd68f",
+  "repositoryUrl": null,
+  "deliveryCommit": null,
+  "publicPreviewUrl": null,
+  "ipfsUrl": null,
+  "note": "Git metadata was read only. No deployment or new commit is asserted. Files exclude this self-describing manifest; totals include it. Raw payload is a conservative size check, not the not-yet-created submission Git bundle.",
+  "limitBytes": 8388608,
+  "reservedPackagingBytes": 917504,
+  "pathBudgetsBytes": {
+    "source": 524288,
+    "public": 131072,
+    "dist": 524288,
+    "artifacts": 6291456
+  },
+  "bytesByGroup": {
+    "source": 284716,
+    "public": 53808,
+    "dist": 393093,
+    "artifacts": 4641724
+  },
+  "totalPayloadBytes": 5373341,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 646,
+      "sha256": "09a2305f14da560be9e98f4a84743d8a3e96719cfbe55a14ec3508052b3e766b"
+    },
+    {
+      "path": "DESIGN.md",
+      "bytes": 11694,
+      "sha256": "3993796a3798c59c6268b56f679014bd4e97aab71f441f36146747be258256ae"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1089,
+      "sha256": "a8ed0183af1b47d4f238fc82a4bae0c621be05480fa5843da65b0001f0ef4ec2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8887,
+      "sha256": "e527300dc0a9b14ab9eb0301f9155c70d7521e9fa03f48a898fc39667a8185da"
+    },
+    {
+      "path": "artifacts/ATTRIBUTION.md",
+      "bytes": 2593,
+      "sha256": "a29148370f9de26b4d796d0b2bb71a841b2784601b4e3339c5385cd0760df8f7"
+    },
+    {
+      "path": "artifacts/COMPARISON.md",
+      "bytes": 7785,
+      "sha256": "6e2ded16492933a8c501b3d96a2739c2fe40e85ab344110124048453616e375c"
+    },
+    {
+      "path": "artifacts/DATA.md",
+      "bytes": 9122,
+      "sha256": "342090d721fd47e04b2d28ce34de142b6035cad62b7f9646b070ec5b4ac6c02e"
+    },
+    {
+      "path": "artifacts/baseline-desktop.webp",
+      "bytes": 1663196,
+      "sha256": "f00ab48d7fba6df2fd9c16455959c1dfe15f40309b3a3285d561f06731b6c7ce"
+    },
+    {
+      "path": "artifacts/browser-validation.json",
+      "bytes": 3694,
+      "sha256": "b7d74971e10a9e12d15de3b9daabac9285f5179d51205a80c484e9514e15ef1e"
+    },
+    {
+      "path": "artifacts/contracts-detail.png",
+      "bytes": 148503,
+      "sha256": "f5bb9a6e23f54669ac73e6d3050c9441dc7458bd43e60433123d8e7461436224"
+    },
+    {
+      "path": "artifacts/design-guidance-LICENSE.txt",
+      "bytes": 11964,
+      "sha256": "97042f2887a04fc6c26967568cee2a17b3229d0f7e5e3c0b0ac877bef6932c39"
+    },
+    {
+      "path": "artifacts/desktop-viewport.png",
+      "bytes": 225187,
+      "sha256": "2cd778e9c2d777ea0eacf09e0496ebadf63a43032feb9f2ff4078a0d8994f5fe"
+    },
+    {
+      "path": "artifacts/desktop-zh.png",
+      "bytes": 505339,
+      "sha256": "189cd9e080a506e2107992339eeb8a745443a06c338d5d6c441f5faea0f79249"
+    },
+    {
+      "path": "artifacts/desktop.png",
+      "bytes": 442754,
+      "sha256": "8a1652ba1054a7587adaf2d1acef3fde28dbbfd407a5a7656cc4045b9ae9dbb8"
+    },
+    {
+      "path": "artifacts/ibm-plex-mono-LICENSE.txt",
+      "bytes": 5299,
+      "sha256": "23b0a9d0c6d3f140a0b77e483c5cfa6bba574325ef5cb189ed9f2fec4884533f"
+    },
+    {
+      "path": "artifacts/keyboard-focus.png",
+      "bytes": 225125,
+      "sha256": "27d50184ba8c881cd736ef01285a1d2293c04de8eb4b88a7241293d49d3153de"
+    },
+    {
+      "path": "artifacts/mobile-320.png",
+      "bytes": 351395,
+      "sha256": "48f02dc4dc673359d0fc2f9c82fedef58aa1b42d537655781b7cc3a176cc2f88"
+    },
+    {
+      "path": "artifacts/mobile-viewport.png",
+      "bytes": 94981,
+      "sha256": "64fec9f4d4988b1a548bc98c3c0f9c82f3d2228899ad984ea8d64a600855ef49"
+    },
+    {
+      "path": "artifacts/mobile-zh.png",
+      "bytes": 408444,
+      "sha256": "c72022391d6b5715a1faf7f76656dd054a6effee58daccf573d50ffc24b73c46"
+    },
+    {
+      "path": "artifacts/mobile.png",
+      "bytes": 353473,
+      "sha256": "a6a8ceff0f5754b27a1546031e57855a57fa093751c09ef217f62d37b2e078aa"
+    },
+    {
+      "path": "artifacts/overview-validation.json",
+      "bytes": 270,
+      "sha256": "e16dcf5b448afbf710250a863115a47f741bb92a2d808dff2136b9f88143af79"
+    },
+    {
+      "path": "artifacts/public-provider-check.json",
+      "bytes": 303,
+      "sha256": "fa645c734c712271834e444edded80a29f2d5772775530fe10378c95c218767a"
+    },
+    {
+      "path": "artifacts/space-grotesk-LICENSE.txt",
+      "bytes": 4401,
+      "sha256": "18a4de52385f6b988782639d5d0cc1326e5a8c2de9a7f01d7b20d9aedcc60943"
+    },
+    {
+      "path": "artifacts/spot-detail.png",
+      "bytes": 153776,
+      "sha256": "09330fd95177973d5e68b0c6e7f747c1ce63cccb01e94b838a9ef7cf25aadd2a"
+    },
+    {
+      "path": "artifacts/validation.md",
+      "bytes": 12461,
+      "sha256": "169f75da9d567e4f4ac91388d85512a83b5e21967b384da00a3262c30f182c21"
+    },
+    {
+      "path": "dist/assets/favicon.svg",
+      "bytes": 192,
+      "sha256": "13261c1c85d754009c17a279147e8ccd043a05cf52d732cfb079ac07917b45cc"
+    },
+    {
+      "path": "dist/assets/ibm-plex-mono-latin.woff2",
+      "bytes": 14708,
+      "sha256": "08949f728dc52d528e69b1667d15c89a5686a4ee9a296ff90983985f99c380f7"
+    },
+    {
+      "path": "dist/assets/index-Dc5g3o9z.css",
+      "bytes": 43854,
+      "sha256": "3295dfad158a0b7a5a0e000b65720530df31a8ab3a492e23151579821242345d"
+    },
+    {
+      "path": "dist/assets/index-pJKJRKyl.js",
+      "bytes": 294659,
+      "sha256": "62ef5bad94b62155535944468294bce65afc2765af72b705d494ffbd8c5dd33c"
+    },
+    {
+      "path": "dist/assets/observer.svg",
+      "bytes": 4743,
+      "sha256": "cb8d880c120e853595770de1c38fbfb2c986796f67996a68e8518aeacb789284"
+    },
+    {
+      "path": "dist/assets/space-grotesk-latin.woff2",
+      "bytes": 22288,
+      "sha256": "0640890476fc1198ab4de571fb658de443c4d85b66466ec09534a8737ab1ce9d"
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 772,
+      "sha256": "251976fb0dd18463eaaacdec135ae0aa54069b0369654bc09eeba8829e83d0cf"
+    },
+    {
+      "path": "dist/licenses/experiment-MIT.txt",
+      "bytes": 1089,
+      "sha256": "a8ed0183af1b47d4f238fc82a4bae0c621be05480fa5843da65b0001f0ef4ec2"
+    },
+    {
+      "path": "dist/licenses/ibm-plex-mono-OFL.txt",
+      "bytes": 5299,
+      "sha256": "23b0a9d0c6d3f140a0b77e483c5cfa6bba574325ef5cb189ed9f2fec4884533f"
+    },
+    {
+      "path": "dist/licenses/react-MIT.txt",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "dist/licenses/space-grotesk-OFL.txt",
+      "bytes": 4401,
+      "sha256": "18a4de52385f6b988782639d5d0cc1326e5a8c2de9a7f01d7b20d9aedcc60943"
+    },
+    {
+      "path": "index.html",
+      "bytes": 672,
+      "sha256": "3c81b95e54257c0d99efb84ccb8291b7fb18f5d2af296aadf24bacb8c34121f1"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 61330,
+      "sha256": "feba3a64e5dee94fd60cb8ea5b3842094cf9fda0dade11647b491792a4607aba"
+    },
+    {
+      "path": "package.json",
+      "bytes": 849,
+      "sha256": "d739b4f4733d1a1943b1530841eff6b537fde4505fe1c59ecb6106e26afa16a0"
+    },
+    {
+      "path": "public/assets/favicon.svg",
+      "bytes": 192,
+      "sha256": "13261c1c85d754009c17a279147e8ccd043a05cf52d732cfb079ac07917b45cc"
+    },
+    {
+      "path": "public/assets/ibm-plex-mono-latin.woff2",
+      "bytes": 14708,
+      "sha256": "08949f728dc52d528e69b1667d15c89a5686a4ee9a296ff90983985f99c380f7"
+    },
+    {
+      "path": "public/assets/observer.svg",
+      "bytes": 4743,
+      "sha256": "cb8d880c120e853595770de1c38fbfb2c986796f67996a68e8518aeacb789284"
+    },
+    {
+      "path": "public/assets/space-grotesk-latin.woff2",
+      "bytes": 22288,
+      "sha256": "0640890476fc1198ab4de571fb658de443c4d85b66466ec09534a8737ab1ce9d"
+    },
+    {
+      "path": "public/licenses/experiment-MIT.txt",
+      "bytes": 1089,
+      "sha256": "a8ed0183af1b47d4f238fc82a4bae0c621be05480fa5843da65b0001f0ef4ec2"
+    },
+    {
+      "path": "public/licenses/ibm-plex-mono-OFL.txt",
+      "bytes": 5299,
+      "sha256": "23b0a9d0c6d3f140a0b77e483c5cfa6bba574325ef5cb189ed9f2fec4884533f"
+    },
+    {
+      "path": "public/licenses/react-MIT.txt",
+      "bytes": 1088,
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "public/licenses/space-grotesk-OFL.txt",
+      "bytes": 4401,
+      "sha256": "18a4de52385f6b988782639d5d0cc1326e5a8c2de9a7f01d7b20d9aedcc60943"
+    },
+    {
+      "path": "src/App.tsx",
+      "bytes": 27190,
+      "sha256": "17fcf5c11416fc51769c8c2c3eb5df511ea3fd61c805576b38253f37a1e96cfc"
+    },
+    {
+      "path": "src/components/Chart.tsx",
+      "bytes": 3261,
+      "sha256": "313486b0cbc3d14cae6c146c1f2c858aa8cd1cf0db140ec2eaccdb1f912096c8"
+    },
+    {
+      "path": "src/components/Icon.tsx",
+      "bytes": 3215,
+      "sha256": "1c3f52728a2bafac60199cbf903d4b86c5a5a096968480eb8a482028e3ccc0bc"
+    },
+    {
+      "path": "src/components/Modal.tsx",
+      "bytes": 2408,
+      "sha256": "8d36a6e1c665f2c65ef7848bbf9d6db7cc526425cd9d0bc3464f57c54445068a"
+    },
+    {
+      "path": "src/components/ResearchDetail.tsx",
+      "bytes": 7446,
+      "sha256": "adbde026a3632a4a7f0d4de1b735180fb9873378d382be7465ed5c423eba6362"
+    },
+    {
+      "path": "src/data/btc.demo.json",
+      "bytes": 7119,
+      "sha256": "4b6909de8654363d206aaa8ba24eeda003e44b6b33df7056b361d3f5b89a7ce8"
+    },
+    {
+      "path": "src/data/eth.demo.json",
+      "bytes": 7188,
+      "sha256": "73af7865ecc3620eb0ee512861abf374f6789606f2747cc7e5b418d9c2acc28f"
+    },
+    {
+      "path": "src/data/overview.demo.json",
+      "bytes": 5336,
+      "sha256": "7f59580af98fd17f576b42aa1b0a84efca6817cca6929a46cb7009410e5f1f66"
+    },
+    {
+      "path": "src/env.d.ts",
+      "bytes": 130,
+      "sha256": "231def43ba1e5bc5b16306223ac931e4b1a1339a0319d063c314cb1e3cf29051"
+    },
+    {
+      "path": "src/i18n.ts",
+      "bytes": 19424,
+      "sha256": "859d1cd4f0b31eb1e59662ce41dfb84580cfda6eecf00fe4a58e054157f35eca"
+    },
+    {
+      "path": "src/lib/market.ts",
+      "bytes": 6313,
+      "sha256": "186eba03214a5ca2f283a762fc685eadad2d80c39b7e31b72fcfdba2588bb047"
+    },
+    {
+      "path": "src/lib/providers.ts",
+      "bytes": 3827,
+      "sha256": "5c2f70cb86a9920213a4ee67460c10d17ec9318e3f52a40d9fbf69d53adcc436"
+    },
+    {
+      "path": "src/lib/snapshot.ts",
+      "bytes": 13575,
+      "sha256": "9fdd61c6d609cb8aa65ee6121cad2b2548ae6485edc8367ec4b0f5ea39cf8ea2"
+    },
+    {
+      "path": "src/main.tsx",
+      "bytes": 158,
+      "sha256": "35f6687f0047963874af0e81a5f450fd4c7508e519c9e1d8558c9b88ca5568a0"
+    },
+    {
+      "path": "src/styles.css",
+      "bytes": 56042,
+      "sha256": "3f99e3b0ea9d867ae26417ab17fcfb24adb4c54dc5799efbae9642525d265d40"
+    },
+    {
+      "path": "tests/browser.mjs",
+      "bytes": 20871,
+      "sha256": "5c83aa4b5dc16003106b1b071b6da0e494a56f59e60714fb0782524ca3646612"
+    },
+    {
+      "path": "tests/delivery.mjs",
+      "bytes": 3954,
+      "sha256": "a822c5e8d463398aa40868edb318f0f7dbfef5d621b9b89c6701989272ad07bb"
+    },
+    {
+      "path": "tests/market.test.ts",
+      "bytes": 6186,
+      "sha256": "ef82066ca961949a43bfd5d3b0c410eefe92da409986df3525463e11aaa1a1d0"
+    },
+    {
+      "path": "tests/overview-browser.mjs",
+      "bytes": 4822,
+      "sha256": "ec7fb969010bb4bd61c87a22c48eeaf791e2856f90a79d4053a2d776b9d49cb0"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 463,
+      "sha256": "c47beb178253d68ab5a6dfd39ebc7d3d4c3c06115ab3529202539d78304c428e"
+    },
+    {
+      "path": "vite.config.ts",
+      "bytes": 621,
+      "sha256": "f16978ddf92d73757163094da9e4852320baf1fe39c63f7b2a935ce3bfcc6f85"
+    }
+  ]
+}

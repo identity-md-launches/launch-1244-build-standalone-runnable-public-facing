@@ -1,0 +1,232 @@
+{
+  "restoring": false,
+  "spot": {
+    "status": "ready",
+    "generatedAt": "2026-10-10T14:16:07.211428+00:00",
+    "analyzed": 52,
+    "items": [
+      {
+        "symbol": "BNBUSDT",
+        "name": "BNB",
+        "venue": "幣安",
+        "horizon": "long",
+        "score": 82.0,
+        "risk": "medium",
+        "price": 751.0,
+        "entryLow": 628.67,
+        "entryHigh": 654.51,
+        "target1": 809.99,
+        "stop": 576.95
+      },
+      {
+        "symbol": "BTCUSDT",
+        "name": "BTC",
+        "venue": "幣安",
+        "horizon": "long",
+        "score": 82.0,
+        "risk": "medium",
+        "price": 82791.52,
+        "entryLow": 70686.68,
+        "entryHigh": 73100.02,
+        "target1": 87395.67,
+        "stop": 64704.01
+      },
+      {
+        "symbol": "ETHUSDT",
+        "name": "ETH",
+        "venue": "幣安",
+        "horizon": "long",
+        "score": 82.0,
+        "risk": "medium",
+        "price": 2498.56,
+        "entryLow": 2084.38,
+        "entryHigh": 2178.3,
+        "target1": 2807.34,
+        "stop": 1896.51
+      },
+      {
+        "symbol": "AAVEUSDT",
+        "name": "AAVE",
+        "venue": "Bybit",
+        "horizon": "short",
+        "score": 79.0,
+        "risk": "medium",
+        "price": 172.72,
+        "entryLow": 159.68,
+        "entryHigh": 164.18,
+        "target1": 187.63,
+        "stop": 149.51
+      },
+      {
+        "symbol": "AAVE-USDT",
+        "name": "AAVE",
+        "venue": "KuCoin",
+        "horizon": "short",
+        "score": 79.0,
+        "risk": "medium",
+        "price": 172.747,
+        "entryLow": 159.642,
+        "entryHigh": 164.228,
+        "target1": 187.895,
+        "stop": 149.321
+      },
+      {
+        "symbol": "SOLUSDT",
+        "name": "SOL",
+        "venue": "幣安",
+        "horizon": "long",
+        "score": 70.0,
+        "risk": "medium",
+        "price": 109.96,
+        "entryLow": 83.9,
+        "entryHigh": 89.42,
+        "target1": 124.95,
+        "stop": 72.82
+      }
+    ]
+  },
+  "derivatives": {
+    "status": "archive",
+    "generatedAt": "2026-10-10T21:00:51+08:00",
+    "items": [
+      {
+        "symbol": "ETH-USD",
+        "name": "ETH (Binance 永續)",
+        "price": 2495.49,
+        "changePct": 0.37,
+        "signalCount": 2,
+        "marketDate": "2026-10-10"
+      },
+      {
+        "symbol": "BTC-USD",
+        "name": "BTC (Binance 永續)",
+        "price": 82773.9,
+        "changePct": 0.24,
+        "signalCount": 2,
+        "marketDate": "2026-10-10"
+      },
+      {
+        "symbol": "ERA-USD",
+        "name": "",
+        "price": 0.08362,
+        "changePct": 33.921,
+        "signalCount": 1,
+        "marketDate": "2026-10-10"
+      },
+      {
+        "symbol": "BAT-USD",
+        "name": "",
+        "price": 0.13358,
+        "changePct": 19.943,
+        "signalCount": 1,
+        "marketDate": "2026-10-10"
+      }
+    ]
+  },
+  "meme": {
+    "asOf": "2026-10-10T14:17:20.755950+00:00",
+    "status": "ready",
+    "items": [
+      {
+        "symbol": "CLOWN",
+        "chain": "hood",
+        "price": 0.00018140002,
+        "liquidity": 37889.65884445911,
+        "ageHours": 0.306746723586,
+        "score": 44.0,
+        "verified": true,
+        "risk": "unknown"
+      },
+      {
+        "symbol": "FLUSHY",
+        "chain": "hood",
+        "price": null,
+        "liquidity": null,
+        "ageHours": null,
+        "score": 24.0,
+        "verified": false,
+        "risk": "unknown"
+      },
+      {
+        "symbol": "STREAMM",
+        "chain": "hood",
+        "price": null,
+        "liquidity": null,
+        "ageHours": null,
+        "score": 12.0,
+        "verified": false,
+        "risk": "unknown"
+      }
+    ]
+  },
+  "tw": {
+    "status": "archive",
+    "generatedAt": "2026-10-10T21:00:51+08:00",
+    "analyzed": 3,
+    "items": [
+      {
+        "symbol": "2330.TW",
+        "name": "TAIWAN SEMICONDUCTOR MANUFACTUR",
+        "price": 2550.0,
+        "changePct": -1.35,
+        "signalCount": 3,
+        "marketDate": "2026-10-08"
+      },
+      {
+        "symbol": "2317.TW",
+        "name": "HON HAI PRECISION INDUSTRY",
+        "price": 249.0,
+        "changePct": -1.19,
+        "signalCount": 3,
+        "marketDate": "2026-10-08"
+      },
+      {
+        "symbol": "0050.TW",
+        "name": "YUANTA SECURITIES INV TRUST CO ",
+        "price": 114.95,
+        "changePct": -0.95,
+        "signalCount": 2,
+        "marketDate": "2026-10-08"
+      }
+    ]
+  },
+  "us": {
+    "status": "archive",
+    "generatedAt": "2026-10-10T21:00:51+08:00",
+    "analyzed": 4,
+    "items": [
+      {
+        "symbol": "NVDA",
+        "name": "NVIDIA Corporation",
+        "price": 229.28,
+        "changePct": -0.52,
+        "signalCount": 2,
+        "marketDate": "2026-10-09"
+      },
+      {
+        "symbol": "AAPL",
+        "name": "Apple Inc.",
+        "price": 336.64,
+        "changePct": -1.11,
+        "signalCount": 1,
+        "marketDate": "2026-10-09"
+      },
+      {
+        "symbol": "MSFT",
+        "name": "Microsoft Corporation",
+        "price": 535.07,
+        "changePct": 2.38,
+        "signalCount": 1,
+        "marketDate": "2026-10-09"
+      },
+      {
+        "symbol": "TSLA",
+        "name": "Tesla, Inc.",
+        "price": 382.7,
+        "changePct": 2.05,
+        "signalCount": 2,
+        "marketDate": "2026-10-09"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+# Explicit submission path budget (total hard limit: 8,388,608 bytes):
+# src/, tests/, root source/config/docs: <= 524,288 bytes
+# public/: <= 131,072 bytes
+# dist/: <= 524,288 bytes (required export, included below)
+# artifacts/: <= 6,291,456 bytes (required screenshots/review/licenses)
+# Remaining 917,504 bytes reserved for Git packaging overhead.
+# Dependency, cache and scratch directories have a zero submission budget.
+**/node_modules/
+**/.vite/
+**/.npm/
+**/.cache/
+**/coverage/
+/test/scratch/
+/.playwright-mcp/
+
+# Override the worker's artifact exclusion only for the deliverable directory.
+!/dist/
+!/dist/**
+!/artifacts/
+!/artifacts/**
